@@ -138,8 +138,10 @@ class HumanResource {
      	 this.HumanResourceComments = HumanResourceComments
      }
 
-        get staffingShift(){}
-        set staffingShift(){}
+        get staffingShift(){
+        	return this._staffingShift
+        }
+        set staffingShift(value){}
 
      	get schedule(){}
      	set schedule(){}
